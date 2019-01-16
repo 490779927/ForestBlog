@@ -53,8 +53,9 @@ forest_blog.sql: 数据库文件，请先创建数据库，然后以运行sql文
 
 如果你是在 Linux 服务器上部署，需要在 Tomcat 配置文件中添加 <br/>
 在 tomcat/conf/server.xml 的 Host 标签内添加如下Context标签代码 <br/>
+xxx未war名称
 
-Context path="/uploads" docBase="/www/uploads" debug="0" reloadable="true" 
+Context path="" docBase="/home/tomcat/apache-tomcat-8.5.8/webapps/xxx" debug="0" reloadable="true" 
 
 如果不修改，会出现uploads的图片无法加载，无法显示上传目录的图片
 
