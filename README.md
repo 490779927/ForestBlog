@@ -2,20 +2,7 @@
 
 该博客是基于SSM实现的一个个人博客系统，适合初学SSM和个人博客制作的同学学习。
 主要涉及技术包括的包括 Maven、Spring、SpringMVC、MyBatis、Redis、JSP等。
-前端采用Layui框架和扒了一个[网站](http://liuyanzhao.com)的前台样式。 <br/>
-详细介绍：[https://liuyanzhao.com/6347.html](https://liuyanzhao.com/6347.html)
-
-## 效果预览
-
-预览地址：http://blog.liuyanzhao.com  <br/>
-前台效果图  <br/>
-![](https://liuyanzhao.com/wp-content/uploads/2018/12/ssmblog.png)
-
-后台效果图  <br/>
-![](https://liuyanzhao.com/wp-content/uploads/2018/12/ssmblog2.png)
-<br/>
-后台地址：/admin 或者 /login <br/>
-为了避免大家删除数据，暂时不给后台账号
+前端采用Layui框架和一个前台样式。 <br/>
 
 ## 使用注意
 #### 1.开发工具的选择
@@ -34,11 +21,6 @@
 确保 tomcat 配置中 `application context` 是 /，而不是 /ForestBlog。这是导致你们首页css样式全无的原因，因为引用css路径都是 /xxx/xxx.css
 ![](https://liuyanzhao.com/wp-content/uploads/2018/12/tomcat.png)
 
-## 使用步骤
-任何问题都可以联系我 <br/>
-Q Q：847064370 <br/>
-微信：847064370 <br/>
-在线留言：[https://liuyanzhao.com/message.html](https://liuyanzhao.com/message.html)
 
 #### 1、克隆项目  <br/>
 克隆或者下载项目到本地，解压，主要分为三个部分：ForestBlog、uploads 和 forest_blog.sql <br/>
@@ -75,13 +57,3 @@ forest_blog.sql: 数据库文件，请先创建数据库，然后以运行sql文
 
 如果不修改，会出现uploads的图片无法加载，无法显示上传目录的图片
 
- 
-## 下载地址：
-Github地址：https://github.com/saysky/ForestBlog
-（如果可以帮忙点一次Star和Fork）
- 
-## 更新记录
-第二次更新：2018年11月26日 <br/>
-大更，重新规范了代码，完善了注释，集成了 Redis
-
-首次提交：2017年10月10日  <br/>
